@@ -3,10 +3,11 @@ function findMatching(drivers, driverLowerCase){
   return drivers.filter(name => driverLowerCase.toLowerCase() == name.toLowerCase())
 }
   
-function fuzzyMatch(drivers, driverStartingSa){
-  return drivers.filter(name => driverStartingSa.startsWith('Sa') == name.startsWith('Sa'))
+function fuzzyMatch(drivers, driverMatch){
+  return drivers.filter(name => driverMatch.startsWith('Sa') == name.startsWith('Sa'))
+  return drivers.filter(name => )
 }
 
-function matchName(drivers, driverMatch){
-  return drivers.filter()
-}
+//function matchName(drivers, driverMatch){
+//  return drivers.filter()
+//}
