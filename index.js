@@ -3,6 +3,6 @@ function findMatching(drivers, driverLowerCase){
   return drivers.filter(name => driverLowerCase.toLowerCase() == name.toLowerCase())
 }
   
-function fuzzyMatch(drivers, driverCaseInsenitive){
-  return drivers.filter(name => driverCaseInsenitive == name)
+function fuzzyMatch(drivers, driverStartingSS){
+  return drivers.filter(name => driverStartingS == name)
 }
